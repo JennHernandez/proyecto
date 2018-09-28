@@ -71,12 +71,20 @@
   <ItemGroup>
     <Content Include="Estilo\css\Login.css" />
     <Content Include="Estilo\js\lo.js" />
+    <Content Include="forms\Models\ResgistrarCliente.aspx" />
     <Content Include="Global.asax" />
     <Content Include="forms\Models\login.aspx" />
     <Content Include="Imagenes\zona_caliente.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="forms\Models\ResgistrarCliente.aspx.cs">
+      <DependentUpon>ResgistrarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\Models\ResgistrarCliente.aspx.designer.cs">
+      <DependentUpon>ResgistrarCliente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
