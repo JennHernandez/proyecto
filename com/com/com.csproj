@@ -95,10 +95,17 @@
     <Compile Include="forms\Models\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pag_MasUsuario.Master.cs">
+      <DependentUpon>pag_MasUsuario.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pag_MasUsuario.Master.designer.cs">
+      <DependentUpon>pag_MasUsuario.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="pag_MasUsuario.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
