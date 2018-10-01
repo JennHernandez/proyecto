@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pag_MasUsuario.master.cs" Inherits="com.pag_MasUsuario" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pag_MasterUsu.master.cs" Inherits="com.pag_MasterUsu" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,6 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <h1>Bienvenidos</h1>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -15,7 +14,6 @@
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-         
         </div>
     </form>
 </body>

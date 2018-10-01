@@ -72,6 +72,7 @@
     <Content Include="Estilo\css\Login.css" />
     <Content Include="Estilo\js\lo.js" />
     <Content Include="forms\Models\ResgistrarCliente.aspx" />
+    <Content Include="Inicio.aspx" />
     <Content Include="Global.asax" />
     <Content Include="forms\Models\login.aspx" />
     <Content Include="Imagenes\zona_caliente.jpg" />
@@ -85,6 +86,13 @@
     <Compile Include="forms\Models\ResgistrarCliente.aspx.designer.cs">
       <DependentUpon>ResgistrarCliente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -95,17 +103,18 @@
     <Compile Include="forms\Models\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pag_MasUsuario.Master.cs">
-      <DependentUpon>pag_MasUsuario.Master</DependentUpon>
+    <Compile Include="pag_MasterUsu.Master.cs">
+      <DependentUpon>pag_MasterUsu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pag_MasUsuario.Master.designer.cs">
-      <DependentUpon>pag_MasUsuario.Master</DependentUpon>
+    <Compile Include="pag_MasterUsu.Master.designer.cs">
+      <DependentUpon>pag_MasterUsu.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="pag_MasUsuario.Master" />
+    <Content Include="pag_MasterUsu.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
