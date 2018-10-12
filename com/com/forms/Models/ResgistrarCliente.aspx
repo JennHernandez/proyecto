@@ -40,7 +40,7 @@
 </script>
 
          <script>
-             function validarSiNumero(e) {
+             function validarSiNumero(e)  {
                  var key = window.event ? e.keyCode : e.which;
                  if ((48 <= key && key <= 57) || (key == 0) || (key == 8))
                  { return true; } else { alert("Este campo solo acepta numeros:"); return false; } // -
